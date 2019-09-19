@@ -1,5 +1,5 @@
-#Shell config
-##Zsh config robbyrussell.zsh-theme
+# Shell config
+## Zsh config robbyrussell.zsh-theme
 NEWLINE=$'\n'
 PROMPT="%(?:%{$fg_bold[green]%}• :%{$fg_bold[red]%}• )"
 PROMPT+=' %{$fg[blue]%}Terminal@%m%{$fg[red]%} [%~]${NEWLINE}└──%{$fg[white]%}$ %{$reset_color%}$(git_prompt_info)'
